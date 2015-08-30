@@ -1,0 +1,1 @@
+web: gunicorn nuhome.wsgi --log-file - 
