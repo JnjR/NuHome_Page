@@ -14,28 +14,30 @@
 		<main class="container">
 			<!-- START HERE --> 
 			<section>
-				<h1>We're N&uuml;Home,</h1>
-				<h2>Bringing you the future home today!</h2>
+				<img id="logo" src="{% static "images/logo.png" %}" width="100%" height="100%" alt="N&uuml;Home logo">
 
-				<p>Today's smart home technologies can turn any house with an internet connection into a dream. But there are too many choices, installation can be complicated and devices don't work well together. This is not so smart.</p>
+				<h1>The future home today</h1>
 
-				<p>At N&uuml;Home we find the best products, work with realtors and home builders to test them in real living spaces and develop proprietary solutions so they work well together. We also connect you with local installers.</p>
+				<p>Smart home technologies can turn any house with an internet connection into a dream. But there are too many choices, installation can be complicated and some devices don't work well together. This is not so smart.</p>
 
-				<p>Sign up to be the first to get updates on our <strong>enchanted home project</strong> &amp; follow us on social media.</p>
+				<p id="about_us">At N&uuml;Home we find the best products, work with realtors and home builders to test them in real living spaces and develop proprietary solutions so they work well together. We also connect you with local installers.</p>
+
+				<p>Sign up to get updates on our <strong>Enchanted Home Project</strong> &amp; receive our picks for Top 10 smart home products: <a mailto:"NuHomeTO@gmail.com">NuHomeTO@gmail.com</a></p>
 			</section>
+		</main> <!-- .container -->
 			<footer>
-				<p>Email us now for a PDF of our picks for Top 10 smart home devices and apps: <a mailto:"NuHomeTO@gmail.com">NuHomeTO@gmail.com</a></p>
+				
+					<a href="#" target="_blank">
+						<img src="{% static "images/twitter.png" %}" alt="Twitter">
+					</a>
 
-				<a href="#" target="_blank">
-					<img src="{% static "images/twitter.png" %}" alt="Twitter">
-				</a>
-
-				<a href="#" target="_blank">
-					<img src="{% static "images/facebook.png" %}" alt="Facebook">
-				</a>
+					<a href="#" target="_blank">
+						<img src="{% static "images/facebook.png" %}" alt="Facebook">
+					</a>
+					<p id="copyright">&copy;2015 <a href="http://rousseauventures.com">Rousseau Ventures</a>. Photo credit <a href="http://www.ideabus.com.tw/en/">IdeaBus</a>.</p>
+		
 			</footer>
 			<!-- END HERE --> 
-		</main><!-- .container --> 
 
 	</body>
 </html>
